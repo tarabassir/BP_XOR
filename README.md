@@ -1,2 +1,2 @@
 # BP_XOR
-Predicting the output of XOR logic gate using back-propagation algorithm.
+Backpropagation was implemented to predict the outputs of the XOR logic gate.  The program takes all the possible data sets for the XOR gate and uses that data to train the network by applying backpropagation.  The training process in forward pass, takes one set of data at a time, which is two inputs, and uses four hidden nodes to produce an output. The output is then compared with the expected output to calculate the error. Unless the error is very small, backward pass is applied in which the weights of the network are updated in order to minimize the error.  Forward and backward pass are repeated until the error becomes small and stops improving.
